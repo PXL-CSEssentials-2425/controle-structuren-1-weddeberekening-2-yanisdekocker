@@ -1,0 +1,22 @@
+﻿<Window x:Class="weddebering2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:weddebering2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="personeelslid" HorizontalAlignment="Left" Height="30" Margin="37,44,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label Content="uurloon" HorizontalAlignment="Left" Height="27" Margin="37,106,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label Content="aantal uren" HorizontalAlignment="Left" Height="31" Margin="37,170,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="30" Margin="214,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131"/>
+        <TextBox x:Name="hourlyWageTextBox" HorizontalAlignment="Left" Height="31" Margin="214,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131"/>
+        <TextBox x:Name="hourTextBox" HorizontalAlignment="Left" Height="27" Margin="214,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131"/>
+        <Button x:Name="calculate" Content="berekenen" HorizontalAlignment="Left" Height="45" Margin="488,29,0,0" VerticalAlignment="Top" Width="190" Click="calculate_Click"/>
+        <Button x:Name="deleteButton" Content="wissen" HorizontalAlignment="Left" Height="46" Margin="488,106,0,0" VerticalAlignment="Top" Width="190" Click="deleteButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="40" Margin="488,186,0,0" VerticalAlignment="Top" Width="190" Click="closeButton_Click"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="155" Margin="10,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="668"/>
+
+    </Grid>
+</Window>
